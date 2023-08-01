@@ -1,0 +1,324 @@
+body{
+    font-family: 'Open Sans';
+    margin: 0;
+    padding: 50;
+    font-size: 12px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 0px;
+}
+.titulo{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+.titulo{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: 10;
+    padding: 0;
+    display: flex;
+    font-size: xx-large
+}
+.titulo{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    letter-spacing: 10px;
+    text-shadow: none;
+    animation: animate 1s infinite linear;
+}
+@keyframes animate{
+0%{
+    color: #d3c2c2;
+    text-shadow: none;
+}
+18%{
+    color: #c7f415;
+    text-shadow: none;
+}
+20%{
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+}
+30%{
+    color: #484848;
+    text-shadow: none;
+}
+35%{
+    color: #e7deec;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+}
+70%{
+    color: #484848;
+    text-shadow: none;
+}
+85%{
+    color: #fff900;
+    text-shadow: 0 0 7px #fff900, 0 0 20px #ff6c00;
+}
+90%{
+    color: #484848;
+    text-shadow: none;
+}
+100%{
+    color: #484848;
+    text-shadow: none;
+}
+}
+
+.galería{
+    display: flex;
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    top: 48%;
+    left: 19%;
+}
+.galería img{
+    width: 100px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: .7s ease;
+}
+.galería img:hover{
+    width: 500px;
+    opacity: 1;
+    filter: brightness(130%);
+}
+
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/* Header*/
+header{
+    width: 100%;
+    height: 630px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    background-color: #fcfcfc;
+}
+nav{
+    text-align: right;
+    padding: 65px 50px 0 0;
+}
+
+nav >a{
+    color: #0d0c0d;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-anchor: #bf80d3;
+}
+
+.textos-header h2{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 300;
+    color: #aba09b;
+    top: 34%;
+}
+
+.wave{
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    top: 7%;
+    color: #6c5876;
+    font-size: 60px;
+}
+
+.listaordenada{
+    margin-bottom: 60px;
+    display: inline-block;
+    padding: 15px;
+    color: #b5987a;
+}
+.list1{
+    margin-bottom: 60px;
+    display: inline-block;
+    padding: 15px;
+    color: #0b0b0b;
+
+}
+.listaNOordenada{
+    margin-bottom: 60px;
+    display: inline-block;
+    padding: 15px;
+    color: #b5987a;
+}
+.titulo2{
+    color: #b5987a;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.P-astrobiologia{
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.titulo21{
+    color: #b5987a;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.p-origen{
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.titulo23{
+    color: #b5987a;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.p-estrellas{
+    text-align: justify;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.containerr{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.cointanerult{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.imgestrella{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.origenimg{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+.ultimaimg{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+.centrarimg{
+    text-align: center;
+}
+footer{
+    background-color:#0f0932;
+    padding: 40px 0 10px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.content-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e6e0e0;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color:#6c686f;
+    border-bottom: 3px solid #0d03d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ffffff;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* que se adapte a telefono celular#######################################################################*/
+
+@media screen and (max-width:900px) {
+    header{
+        background-position: center;
+    }}
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+}
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    /*footer*/
+    .content-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo{
+        margin-bottom: 2px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border-bottom: none;
+    }
+
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+    .t-final{
+        font-size: 20px;
+    }
+
+
+
